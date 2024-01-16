@@ -6,14 +6,23 @@ let page = {
 }
 
 
-let Titulli = document.getElementById("Titulli")
-Titulli.innerHTML = page.permbajtjaETitullit
-
-let faqja = document.getElementById("faqja")
-faqja.innerHTML = page.permbajtjaEFaqes
 
 
 
 
+
+function vendosTitullin() {
+    var Titulli = document.getElementById("Titulli")
+    Titulli.innerHTML = page.permbajtjaETitullit
+}
+
+function vendosFaqen() {
+    let faqja = document.getElementById("faqja")
+    faqja.innerHTML = page.permbajtjaEFaqes
+}
+
+vendosTitullin ()
+
+vendosFaqen ()
 
 
