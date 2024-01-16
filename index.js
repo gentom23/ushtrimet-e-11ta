@@ -1,15 +1,7 @@
-
-
 let page = {
     permbajtjaETitullit: "genti",
     permbajtjaEFaqes: "blablabla"
 }
-
-
-
-
-
-
 
 function vendosTitullin() {
     var Titulli = document.getElementById("Titulli")
@@ -21,8 +13,8 @@ function vendosFaqen() {
     faqja.innerHTML = page.permbajtjaEFaqes
 }
 
-vendosTitullin ()
+vendosTitullin()
 
-vendosFaqen ()
+vendosFaqen()
 
 
